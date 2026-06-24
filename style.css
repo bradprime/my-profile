@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    background:#f0f0f0;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    text-align:left;
+    padding:40px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:20px;
+}
+
+profile-header h1{
+    margin:15px 0 5px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+.Hobbies & Interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Hobbies & Interests li {
+    font-size: 18px;
+    margin: 12px 0;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+.Hobbies & Interests i {
+    color: #2563eb;
+    margin-right: 10px;
+    width: 25px;
+}
+
+h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+Academic Background table, td th {
+    border:1px solid#0f172a;
+    padding:8px;
+    text-align:left;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:20px;
+}
+
+
+
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skills span{
+    background:#2563eb;
+    color:white;
+    padding:10px 15px;
+    border-radius:20px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.social-links a{
+    margin-right:15px;
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f172a;
+    color:white;
+}
